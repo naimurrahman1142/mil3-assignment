@@ -238,8 +238,35 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-12 col-12">
-                        <a href="#" class="btn btn-light rounded text-primary px-4 fw-bold ">Register Now</a>
-
+                        <a href="#" class="btn btn-light rounded text-primary px-4 fw-bold " data-bs-toggle="modal"
+                            data-bs-target="#myModal">Register Now</a>
+                        <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-tittle">Contact Us</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form>
+                                            <div class="mb-3">
+                                                <label class="form-label">Name</label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form-label">Email</label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form-label">Type your message</label>
+                                                <textarea class="form-control"></textarea>
+                                            </div>
+                                            <button type="submit" class="btn btn-primary">Submit</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </article>
