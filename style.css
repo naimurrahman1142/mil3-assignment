@@ -11,3 +11,25 @@
      color: white;
      font-size: 24px;
  }
+
+ .carousel-caption {
+     padding: 0;
+ }
+
+ .carousel-item h1,
+ p {
+     margin: 0;
+     padding: 0;
+ }
+
+ .carousel-item p {
+     color: black;
+     font-size: 16px;
+     font-weight: 500;
+     margin: 0;
+     padding: 0;
+ }
+
+ .rounded img {
+     width: 100%;
+ }
