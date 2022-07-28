@@ -8,3 +8,10 @@
  /* .button-m {
      margin-top: 60px;
  } */
+ .fa-facebook,
+ .fa-twitter,
+ .fa-linkedin,
+ .fa-github {
+     color: white;
+     padding: 10px;
+ }
